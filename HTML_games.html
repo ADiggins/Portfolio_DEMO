@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Games</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="HTML_GameCSS.css">
+    <script type="module" src="customElements.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <!-- <script id="gameScript" src="Pong.js"></script> -->
+    <script src="HTML_GameManager.js"></script>
+</head>
+
+<body>
+    <div id="mainContainer">
+        
+        <my-header></my-header>
+
+        <div id="bodyContent">
+            
+            <div id="gameNav">
+                <button onclick="loadNewGame('Pong.js')"> G1 </button>
+                <button onclick="loadNewGame('SpaceInvaders.js')"> G2 </button>
+                <button onclick="loadNewGame('Pacman.js')"> G3 </button>
+            </div>
+
+            
+            <div id="gamePanel">
+
+            </div>
+        </div>
+
+        <my-footer></my-footer>
+    </div>    
+    
+</body>
+
+</html>

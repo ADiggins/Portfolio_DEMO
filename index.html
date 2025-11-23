@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="customElements.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    
+    <!-- <script src="sketch.js"></script> -->
+</head>
+<body>
+    <div id="mainContainer">
+        <my-header></my-header>
+
+        <div id="GameLinks">
+            <button onclick="window.location.href = 'HTML_games.html'">HTML Games</button>
+            <button onclick="window.location.href = 'Game1.html'">Game 1</button>
+            <button onclick="window.location.href = 'Game2.html'">Game 2</button>
+            <button onclick="window.location.href = 'Game3.html'">Game 3</button>
+        </div>
+
+        <my-opener></my-opener>
+        <!-- <div id="opener">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="ba7863c2-3747-4387-be29-e34ffd7f5549">
+                <label for="" >Name<input type="text" id="visitorName" name="name"></label>
+                <label for="" >Company<input type="text" id="visitorCompany" name="company"></label>
+                <button type="submit" id = "SubmitVisitor"> "Submit Details"</button>
+                <button type="submit" id = "SubmitAnon">"Abstain For Now"</button>
+            </form>
+        </div> -->
+
+        <my-footer></my-footer>
+    </div>
+    <script src="OpenerCheck.js"></script>
+</body>
+</html>
